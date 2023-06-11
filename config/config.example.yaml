@@ -1,0 +1,23 @@
+telegram:
+  api_id: api_id
+  api_hash: api_hash
+  api_token: api_token
+  username: username
+message:
+  to_channels:
+    the_tech_trader: the_tech_trader
+    punch_card: punch_card
+  from_channels: [from_channels]
+  filters: ['NIFTY|BANKNIFTY', 'ABOVE', 'CE|PE', 'TARGET', 'SL']
+trade_setup:
+  lot: 2
+  exchange: NFO
+  symbol: [ 'NIFTY', 'BANKNIFTY' ]
+tradetron:
+  url: https://api.tradetron.tech/api?
+  auth_token:
+    live: auth_token
+    paper: auth_token
+#log:
+#  time_format: %H:%M:%S
+#  date_format: %Y%m%d
